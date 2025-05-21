@@ -4,7 +4,10 @@ public class Program
 {
     public static void Main()
     {
-        double result = Calculator.DivideNumbers(1, 2);
-        Console.WriteLine("The result is " + result);
+        double divisionResult = Calculator.DivideNumbers(1, 2);
+        Console.WriteLine("The result of number division is " + divisionResult);
+
+        double averageResult = Calculator.CalculateAverage([1, 2]);
+        Console.WriteLine("The result of average calculation is " + averageResult);
     }
 }
