@@ -1,5 +1,10 @@
-﻿using System.Drawing;
-using Pastel;
+﻿using System;
 
-Console.WriteLine("Hello, World!".Pastel(Color.DarkBlue));
-Console.WriteLine("The current time is " + DateTime.Now);
+public class Program
+{
+    public static void Main()
+    {
+        double result = Calculator.DivideNumbers(1, 2);
+        Console.WriteLine("The result is " + result);
+    }
+}
