@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{D76F1D7A-8C43-405D-9546-4362BCF0F911}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApp", "ConsoleApp", "{DACA7FD0-2F1D-9E6A-A381-3006308BBC75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpIntro", "ConsoleApp\CSharpIntro.csproj", "{1E646B70-AE95-40D0-AC3F-FB7DC970BAEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,23 @@ Global
 		{D76F1D7A-8C43-405D-9546-4362BCF0F911}.Release|x64.Build.0 = Release|Any CPU
 		{D76F1D7A-8C43-405D-9546-4362BCF0F911}.Release|x86.ActiveCfg = Release|Any CPU
 		{D76F1D7A-8C43-405D-9546-4362BCF0F911}.Release|x86.Build.0 = Release|Any CPU
+		{1E646B70-AE95-40D0-AC3F-FB7DC970BAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E646B70-AE95-40D0-AC3F-FB7DC970BAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E646B70-AE95-40D0-AC3F-FB7DC970BAEF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1E646B70-AE95-40D0-AC3F-FB7DC970BAEF}.Debug|x64.Build.0 = Debug|Any CPU
+		{1E646B70-AE95-40D0-AC3F-FB7DC970BAEF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1E646B70-AE95-40D0-AC3F-FB7DC970BAEF}.Debug|x86.Build.0 = Debug|Any CPU
+		{1E646B70-AE95-40D0-AC3F-FB7DC970BAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E646B70-AE95-40D0-AC3F-FB7DC970BAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E646B70-AE95-40D0-AC3F-FB7DC970BAEF}.Release|x64.ActiveCfg = Release|Any CPU
+		{1E646B70-AE95-40D0-AC3F-FB7DC970BAEF}.Release|x64.Build.0 = Release|Any CPU
+		{1E646B70-AE95-40D0-AC3F-FB7DC970BAEF}.Release|x86.ActiveCfg = Release|Any CPU
+		{1E646B70-AE95-40D0-AC3F-FB7DC970BAEF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E646B70-AE95-40D0-AC3F-FB7DC970BAEF} = {DACA7FD0-2F1D-9E6A-A381-3006308BBC75}
 	EndGlobalSection
 EndGlobal
